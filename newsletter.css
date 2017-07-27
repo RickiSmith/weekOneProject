@@ -1,0 +1,8 @@
+body {
+    margin: auto;
+    background-image: url("background-2");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+}

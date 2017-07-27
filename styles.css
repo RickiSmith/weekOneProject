@@ -1,6 +1,126 @@
 body{
   width: 100%;
+  margin: 0 auto;
+  background-color: #F2F1E8;
+  font-family: 'Lora', sans-serif;
 }
-#main_container{
-  background-color: #F2F1E8; 
+
+.main_navigation{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    height: 60px;
+	box-shadow: 6px 6px 10px -8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.logo{
+	height: 40px;
+    width: 40px;
+    margin-top: 4px;
+	float: left;
+	background-size:contain;
+    background-image: url(images/bent-creek-logo.png);
+}
+
+.navigation_links{
+	margin: 0 auto;
+    margin-top: 8px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div a {
+	padding: 25px;
+    color: #2B2F26;
+}
+
+.main_header{
+	background-color: #F2F1E8;
+	text-align: center;
+	padding-top: 5%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.photos {
+	margin: 5px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textbox {
+	margin-bottom: 15px;
+    padding: 10px;
+    background-color: #2B2F27;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+#picture-1 {
+  flex: 1 1 60%;
+  order: 1;
+  height: 500px;
+  background-image: url(images/product-1.jpg);
+}
+
+#picture-2 {
+  flex: 1 1 15%;
+  order: 2;
+  height: 500px;
+  background-image: url(images/product-2.jpg);
+}
+
+#picture-3 {
+  flex: 1 1 15%;
+  order: 3;
+  height: 500px;
+  background-image: url(images/product-3.jpg);
+}
+
+#picture-4 {
+  flex: 1 1 20%;
+  order: 4;
+  height: 250px;
+  background-image: url(images/product-4.jpg);
+}
+
+#picture-5 {
+  flex: 1 1 15%;
+  order: 5;
+  height: 250px;
+  background-image: url(images/product-5.jpg);
+}
+
+#picture-6 {
+  flex: 1 1 35%;
+  order: 6;
+  height: 250px;
+  background-image: url(images/product-6.jpg);
+
+}
+
+#picture-7 {
+  flex: 1 1 20%;
+  order: 7;
+  height: 250px;
+  background-image: url(images/product-7.jpg);
+}
+
+footer{
+  background-color: #2B2F27;
+  color: #ffffff;
+  padding: 30px;
+
 }

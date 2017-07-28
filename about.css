@@ -67,7 +67,7 @@ nav img{
     text-transform: uppercase;
 }
 #background1{
- width: 40%;
+ width: 20%;
  height: 100px;
  float:right;
  background-repeat: no-repeat;
@@ -93,7 +93,7 @@ article {
  font-size: 12px;
  position: relative;
     top: 100%;
-    width: 50%;
+    width: 100%;
  margin-bottom: 50%;
 }
 
